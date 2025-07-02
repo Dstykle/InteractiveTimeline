@@ -7,7 +7,7 @@
       }
     });
   }, {
-    threshold: 0.1 // triggers when 10% is visible
+    threshold: .5 // triggers when 10% is visible
   });
 
   document.querySelectorAll('.timeline-item').forEach(item => {
