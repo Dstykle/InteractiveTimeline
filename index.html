@@ -1,85 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vertical Timeline</title>
+  <title>Apple Timeline</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="timeline.css">
+  <link rel="stylesheet" href="timeline.css">
 </head>
-<body class="bg-secondary">
-<div class="container">
-  <h2 class="text-center my-5 text-decoration-underline text-danger border py-5">Apple</h2>
-  <div class="timeline">
-    <div class="timeline-item left" >
-      <div id="date" class="border"><strong>1976</strong></div>
-      <div class="timeline-content" data-bs-toggle="modal" data-bs-target="#modal1">
-        <h5>title</h5>
-        <img src="devendra-mishra-wWv2EcHK0EU-unsplash.jpg" class="img-fluid">
-        <!--small description-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error non id, pariatur ex quia!</p>
+
+<body class="backgroundColor" style="font-family: monospace;">
+  <div class="container">
+    <span class="text-center"><h2 class="py-5"><a href="#" class="text-decoration-none text-dark">Apple Timeline</a></h2></span>
+    <div class="timeline">
+
+      <div class="timeline-item left">
+        <div id="date" class=""><strong>1976</strong></div>
+        <div class="timeline-content" data-bs-toggle="modal" data-bs-target="#modal1">
+          <h5>Apple was founded</h5>
+          <img src="images/iphone.jpg" class="img-fluid rounded">
+          <!--small description-->
+          <p>In 1976, there were two individuals who came up with the product idea Apple. The introduction of this new
+            technology put the world in awe...</p>
+          <small class="text-muted">Click to view more..</small>
+        </div>
       </div>
-    </div>
-    
-    <div class="spacing"></div>
 
-    <div class="timeline-item right">
-            <div id="date" ><strong>1977</strong></div>
-
-      <div class="timeline-content">
-        <h5>title</h5>
-        <img src="devendra-mishra-wWv2EcHK0EU-unsplash.jpg" class="img-fluid">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis commodi consectetur accusantium cupiditate sequi ad.</p>
+      <div class="spacing"></div>
+      <div class="timeline-item right">
+        <div id="date"><strong>1977-1978</strong></div>
+        <div class="timeline-content">
+          <h5>Commercial Success</h5>
+          <img src="images/appleCommercial.webp" class="img-fluid rounded">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis commodi consectetur accusantium
+            cupiditate sequi ad.</p>
+          <small class="text-muted">Click to view more..</small>
+        </div>
       </div>
-    </div>
 
-        
-<div class="spacing"></div>
-    <div class="timeline-item left">
-            <div id="date"><strong>1978</strong></div>
+      <div class="spacing"></div>
+      <div class="timeline-item left">
+        <div id="date"><strong>1979</strong></div>
 
-      <div class="timeline-content">
-        <h5>title</h5>
-        <img src="devendra-mishra-wWv2EcHK0EU-unsplash.jpg" class="img-fluid">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quisquam temporibus totam quasi nobis delectus.</p>
+        <div class="timeline-content">
+          <h5>The GUI</h5>
+          <img src="images/applecomputer.jpeg" class="img-fluid rounded">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quisquam temporibus totam quasi nobis
+            delectus.</p>
+          <small class="text-muted">Click to view more..</small>
+        </div>
       </div>
-    </div>
-    
-<div class="spacing"></div>
-    <div class="timeline-item right">
-            <div id="date"><strong>1979</strong></div>
 
-      <div class="timeline-content">
-        <h5>title</h5>
-        <img src="devendra-mishra-wWv2EcHK0EU-unsplash.jpg" class="img-fluid">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda amet molestias deserunt nulla ratione?</p>
+      <div class="spacing"></div>
+      <div class="timeline-item right">
+        <div id="date"><strong>1980s</strong></div>
+
+        <div class="timeline-content">
+          <h5>Competitors</h5>
+          <img src="images/faang.jpg" class="img-fluid rounded">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda amet molestias deserunt nulla
+            ratione?</p>
+          <small class="text-muted">Click to view more..</small>
+        </div>
       </div>
-    </div>
 
+      <div class="spacing"></div>
+      <div class="timeline-item left">
+        <div id="date" class="date-long"><strong>1997-2010s</strong></div>
+        <div class="timeline-content">
+          <h5>Intro to Apple Early Products</h5>
+          <img src="images/earlyAppleProducts.jpeg" class="img-fluid rounded">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda amet molestias deserunt nulla
+            ratione?</p>
+          <small class="text-muted">Click to view more..</small>
+        </div>
+      </div>
+
+      <div class="spacing"></div>
+      <div class="timeline-item right">
+        <div id="date"><strong>2011-Present</strong></div>
+        <div class="timeline-content">
+          <h5>Advancement of Apple Hardware</h5>
+          <img src="images/newerAppleProducts.jpg" class="img-fluid rounded">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda amet molestias deserunt nulla
+            ratione?</p>
+          <small class="text-muted">Click to view more..</small>
+        </div>
+      </div>
+
+    </div>
   </div>
-</div>
 
-<!--Each modal which are hidden until clicked on page-->
-<div class="modal fade" id="modal1" aria-labelledby="modal1Label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modal1Label">title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <!--Long description-->
-      <div class="modal-body">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, eveniet quasi! Nisi voluptates minima autem?
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, eveniet quasi! Nisi voluptates minima autem?
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+  <!--Each modal which are hidden until clicked on page-->
+  <div class="modal fade" id="modal1" aria-labelledby="modal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered data-bs-backdrop=primary" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal1Label">title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!--Long description-->
+        <div class="modal-body">
+          <img src="images/iphone.jpg" class="img-fluid rounded">
+          <p>
+            In 1976, there were two individuals with the names of Steve Jobs and Steve Wozniak, who came up with the
+            product idea, Apple. The introduction of this new technology put
+            the world in awe with its stunning new visuals and innovations which put new standards to user interactivity
+            and impact the world of new generation phones.
+            By creating new ways of how phones are made this made a breakthrough in modern technology, which helped
+            kickstart this copany and with a massive lead on other
+            competitors. The new uses after bringing the first GUI's into adoption for hand held computers this allowed
+            them to bring new aesthetics to the phone and more personal
+            preferences to the customer in how they wanted their phone to look and act.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="timeline.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="timeline.js"></script>
 </body>
 </html>
