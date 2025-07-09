@@ -125,7 +125,13 @@ h5,p{
           margin-left: 44%;
         }
         .date-long{
-          margin-left: 49% !important;
+          margin-left: 40% !important;
+        }
+
+    }
+    @media (min-width: 936px) and (max-width: 1199px){
+        .date-long{
+          margin-left: 34% !important;
         }
 
     }
