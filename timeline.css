@@ -47,7 +47,10 @@ h5,p{
   opacity: 1;
   transform: translateY(0);
 }
-
+.modal-body p{
+  margin-top: 17px;
+  margin-bottom: -10px;
+}
     .spacing{
       height:40vw;
     }
