@@ -119,6 +119,7 @@ h5,p{
         text-align: left !important;
         margin-left: 2rem;
       }
+      
       }
       @media (min-width: 1200px){
         .timeline-item.left #date{
@@ -127,7 +128,19 @@ h5,p{
         .date-long{
           margin-left: 40% !important;
         }
-
+      
+    }
+    @media (min-width: 769px){
+      footer{
+          margin-top: 56vh !important;
+        
+        }
+    }
+    @media (max-height: 742px){
+      footer{
+          margin-top: 52vw !important;
+        
+        }
     }
     @media (min-width: 936px) and (max-width: 1199px){
         .date-long{
